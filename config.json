@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "limitType": "quarterly",
+    "limitValueGrosze": 1081350,
+    "validFrom": "2026-01-01",
+    "messageToUser": "Limit działalności nierejestrowanej wynosi 10 813,50 zł kwartalnie."
+  },
+
+  "app": {
+    "latestVersion": "1.0.0",
+    "minSupportedVersion": "1.0.0",
+    "forceUpdate": false,
+    "updateMessage": "Dostępna jest nowa wersja aplikacji.",
+    "storeUrlAndroid": "",
+    "storeUrlIos": ""
+  }
+}
