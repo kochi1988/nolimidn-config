@@ -1,4 +1,5 @@
 {
+  "configVersion": 1,
   "rules": [
     {
       "validFrom": "2025-01-01",
@@ -6,9 +7,7 @@
       "limitValueGrosze": 1081350
     }
   ],
-
   "messageToUser": "Limit działalności nierejestrowanej obowiązuje kwartalnie.",
-
   "app": {
     "latestVersion": "1.0.0",
     "minSupportedVersion": "1.0.0",
