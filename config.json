@@ -1,19 +1,20 @@
-{
-  "configVersion": 1,
-
-  "rules": [
-    {
-      "validFrom": "2025-01-01",
-      "limitType": "quarterly",
-      "limitValueGrosze": 91081350
-    }
-  ],
-
-  "messageToUser": "Limit działalności nierejestrowanej obowiązuje kwartalnie.",
-
-  "app": {
-    "latestVersion": "1.0.0",
-    "minSupportedVersion": "1.0.0",
-    "forceUpdate": false
-  }
+{ 
+  "rules": [ 
+    { "validFrom": "2025-01-01", 
+      "limitType": "quarterly", 
+      "limitValueGrosze": 1081350 
+    }, 
+    { "validFrom": "2027-01-01", 
+      "limitType": "quarterly", 
+      "limitValueGrosze": 1250000 
+    } 
+  ], 
+  
+  "messageToUser": "Limit działalności nierejestrowanej obowiązuje kwartalnie.", 
+  
+  "app": { 
+    "latestVersion": "1.0.0", 
+    "minSupportedVersion": "1.0.0", 
+    "forceUpdate": false 
+  } 
 }
