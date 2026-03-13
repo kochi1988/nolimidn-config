@@ -1,20 +1,17 @@
-{ 
-  "rules": [ 
-    { "validFrom": "2025-01-01", 
-      "limitType": "quarterly", 
-      "limitValueGrosze": 1081350 
-    }, 
-    { "validFrom": "2027-01-01", 
-      "limitType": "quarterly", 
-      "limitValueGrosze": 1250000 
-    } 
-  ], 
-  
-  "messageToUser": "Limit działalności nierejestrowanej obowiązuje kwartalnie.", 
-  
-  "app": { 
-    "latestVersion": "1.0.0", 
-    "minSupportedVersion": "1.0.0", 
-    "forceUpdate": false 
-  } 
+{
+  "rules": {
+    "limitType": "quarterly",
+    "limitValueGrosze": 1250000,
+    "validFrom": "2027-01-01",
+    "messageToUser": "Nowy limit działalności nierejestrowanej wynosi 12 500 zł kwartalnie."
+  },
+
+  "app": {
+    "latestVersion": "1.0.0",
+    "minSupportedVersion": "1.0.0",
+    "forceUpdate": false,
+    "updateMessage": "Dostępna jest nowa wersja aplikacji.",
+    "storeUrlAndroid": "",
+    "storeUrlIos": ""
+  }
 }
