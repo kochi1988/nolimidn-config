@@ -1,10 +1,10 @@
 {
-  "configVersion": 1,
+  "configVersion": 2,
   "rules": [
     {
       "validFrom": "2025-01-01",
       "limitType": "quarterly",
-      "limitValueGrosze": 1081350
+      "limitValueGrosze": 2081350
     }
   ],
   "messageToUser": "Limit działalności nierejestrowanej obowiązuje kwartalnie.",
